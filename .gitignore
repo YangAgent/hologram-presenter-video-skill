@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Skill runtime data (per-user profile & generated videos)
+profile/
+profile.backup/
+hologram-video-runs/
+*.log
+
+# Video / media outputs
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# Test / eval caches
+.deepeval/
+tmp/
+temp/

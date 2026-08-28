@@ -1,0 +1,6 @@
+interface:
+  display_name: "Hologram Presenter Video"
+  short_description: "Create knowledge videos with an interactive hologram presenter"
+  default_prompt: "Use $hologram-presenter-video to turn my knowledge content into a character-led hologram explainer video."
+policy:
+  allow_implicit_invocation: true
